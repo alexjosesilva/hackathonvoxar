@@ -68,7 +68,7 @@
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
           -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="http://alexjosesilva.github.io/">AlexJoseSilva</a>
         </div>
     </div>
   </div>
