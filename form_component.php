@@ -323,13 +323,13 @@
           <li class="sub-menu">
             <a href="javascript:;" class="">
                 <i class="icon_document_alt"></i>
-                <span>Forms</span>
+                <span>Paciente</span>
                 <span class="menu-arrow arrow_carrot-right"></span>
             </a>
             <ul class="sub">
-              <li><a class="" href="form_component.html">Cadastro de Pacientes</a></li>
-              <li><a class="" href="form_validation.html">Anaminese</a></li>
-              <li><a class="" href="chart-chartjs.html">Graficos</a></li>
+              <li><a class="" href="form_component.php">Cadastro de Pacientes</a></li>
+              <li><a class="" href="form_validation.php">Anaminese</a></li>
+              <li><a class="" href="chart-chartjs.php">Graficos</a></li>
             </ul>
           </li>
         </ul>
