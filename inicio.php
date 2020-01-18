@@ -292,7 +292,7 @@
                 <a href="#"><i class="icon_chat_alt"></i> Chats</a>
               </li>
               <li>
-                <a href="login.php"><i class="icon_key_alt"></i> Log Out</a>
+                <a href="index.php"><i class="icon_key_alt"></i> Log Out</a>
               </li>
               <li>
                 <a href="documentation.php"><i class="icon_key_alt"></i> Documentation</a>
