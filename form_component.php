@@ -56,7 +56,7 @@
       </div>
 
       <!--logo start-->
-      <a href="index.php" class="logo">Nice <span class="lite">Admin</span></a>
+      <a href="inicio.php" class="logo">Fisio 2.0 <span class="lite">Admin</span></a>
       <!--logo end-->
 
       <div class="nav search-row" id="top_menu">
@@ -295,7 +295,7 @@
                 <a href="#"><i class="icon_chat_alt"></i> Chats</a>
               </li>
               <li>
-                <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                <a href="login.php"><i class="icon_key_alt"></i> Log Out</a>
               </li>
               <li>
                 <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
@@ -318,7 +318,7 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu">
           <li class="active">
-            <a class="" href="index.php">
+            <a class="" href="inicio.php">
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
@@ -380,7 +380,7 @@
                       </a>
             <ul class="sub">
               <li><a class="" href="profile.html">Profile</a></li>
-              <li><a class="" href="login.html"><span>Login Page</span></a></li>
+              <li><a class="" href="login.php"><span>Login Page</span></a></li>
               <li><a class="" href="contact.html"><span>Contact Page</span></a></li>
               <li><a class="" href="blank.html">Blank Page</a></li>
               <li><a class="" href="404.html">404 Error</a></li>
@@ -703,7 +703,7 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
-                        <h4 class="modal-title">Form Tittle</h4>
+                        <h4 class="modal-title">Cadastro de Pacientes</h4>
                       </div>
                       <div class="modal-body">
 
