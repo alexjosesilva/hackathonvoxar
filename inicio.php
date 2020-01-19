@@ -233,7 +233,7 @@
                       </a>
             <ul class="sub">
               <li><a class="" href="form_component.php">Cadastro de Pacientes</a></li>
-              <li><a class="" href="form_validation.php">Anamise</a></li>
+              <li><a class="" href="form_validation.php">Anaminese</a></li>
               <li><a class="" href="chart-chartjs.php">Graficos</a></li>
             </ul>
           </li>
