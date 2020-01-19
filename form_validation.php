@@ -238,7 +238,7 @@
             <ul class="sub">
               <li><a class="" href="form_component.php">Cadastar Paciente</a></li>
               <li><a class="" href="form_validation.php">Anaminese</a></li>
-              <li><a class="" href="chart-chartjs.php">Charts</a></li>
+              <li><a class="" href="chart-chartjs.php">Grafico</a></li>
             </ul>
           </li>
 
@@ -253,11 +253,11 @@
       <section class="wrapper">
         <div class="row">
           <div class="col-lg-12">
-            <h3 class="page-header"><i class="fa fa-files-o"></i> Form Validation</h3>
+            <h3 class="page-header"><i class="fa fa-files-o"></i> Anaminese</h3>
             <ol class="breadcrumb">
               <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
-              <li><i class="icon_document_alt"></i>Forms</li>
-              <li><i class="fa fa-files-o"></i>Form Validation</li>
+              <li><i class="icon_document_alt"></i>Cadastro</li>
+              <li><i class="fa fa-files-o"></i>Cadastro Anaminese</li>
             </ol>
           </div>
         </div>

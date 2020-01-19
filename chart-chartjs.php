@@ -254,7 +254,7 @@
         <section class="wrapper">
           <div class="row">
             <div class="col-lg-12">
-              <h3 class="page-header"><i class="icon_piechart"></i> Chart</h3>
+              <h3 class="page-header"><i class="icon_piechart"></i> Grafico</h3>
               <ol class="breadcrumb">
                 <li><i class="fa fa-home"></i><a href="inicio.php">Home</a></li>
                 <li><i class="icon_piechart"></i>Chart</li>
