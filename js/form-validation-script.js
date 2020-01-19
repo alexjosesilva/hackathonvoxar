@@ -1,12 +1,10 @@
 var Script = function () {
 
-    $.validator.setDefaults({
-        submitHandler: function() { alert("submitted!"); }
-    });
+ 
 
     $().ready(function() {
         // validate the comment form when it is submitted
-        $("#feedback_form").validate();
+        //$("#feedback_form").validate();
 
         // validate signup form on keyup and submit
         $("#register_form").validate({

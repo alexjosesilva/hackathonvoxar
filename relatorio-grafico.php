@@ -9,7 +9,7 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>Cadastro | Fisio 2.0</title>
+  <title>Grafico | Fisio 2.0</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -42,6 +42,7 @@
   <!-- container section start -->
   <section id="container" class="">
     <!--header start-->
+
     <header class="header dark-bg">
       <div class="toggle-nav">
         <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
@@ -188,200 +189,137 @@
                         </a>
             <ul class="dropdown-menu extended logout">
               <div class="log-arrow-up"></div>
-             
+            
               <li>
                 <a href="contact.php"><i class="icon_mail_alt"></i> Mensagem</a>
               </li>
-            
+             
               <li>
                 <a href="index.php"><i class="icon_key_alt"></i> Log Out</a>
               </li>
-             
+           
             </ul>
           </li>
           <!-- user login dropdown end -->
         </ul>
         <!-- notificatoin dropdown end-->
       </div>
-    </header>
-    <!--header end-->
+      </header>
+      <!--header end-->
 
-    <!--sidebar start-->
-    <aside>
-      <div id="sidebar" class="nav-collapse ">
-        <!-- sidebar menu start-->
-        <ul class="sidebar-menu">
-          <li class="active">
-            <a class="" href="inicio.php">
+      <!--sidebar start-->
+      <aside>
+        <div id="sidebar" class="nav-collapse ">
+          <!-- sidebar menu start-->
+          <ul class="sidebar-menu">
+            <li class="active">
+              <a class="" href="inicio.php">
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
-          </li>
-          <li class="sub-menu">
-            <a href="javascript:;" class="">
+            </li>
+            <li class="sub-menu">
+              <a href="javascript:;" class="">
                           <i class="icon_document_alt"></i>
-                          <span>Pacientes</span>
+                          <span>Paciente</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
-            <ul class="sub">
-              <li><a class="" href="cadastro_paciente.php">Cadastrar Paciente</a></li>
-              <li><a class="" href="buscar_paciente.php">Buscar Paciente</a></li>
-              <li><a class="" href="relatorio-grafico.php">Relatorio Gráfico</a></li>
-            </ul>
-          </li>
+              <ul class="sub">
+                <li><a class="" href="cadastro_paciente.php">Cadastro de Paciente</a></li>
+                <li><a class="" href="buscar_paciente.php">Buscar Paciente</a></li>
+                <li><a class="" href="relatorio_grafico.php">Relatorio Grafico</a></li>
+              </ul>
+            </li>
 
-        </ul>
-        <!-- sidebar menu end-->
-      </div>
-    </aside>
-    <!--sidebar end-->
+          </ul>
+          <!-- sidebar menu end-->
+        </div>
+      </aside>
+      <!--sidebar end-->
 
-    <!--main content start-->
-    <section id="main-content">
-      <section class="wrapper">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="page-header"><i class="fa fa-files-o"></i> Paciente</h3>
-            <ol class="breadcrumb">
-              <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
-              <li><i class="icon_document_alt"></i>Cadastro</li>
-              <li><i class="fa fa-files-o"></i>Cadastro Paciente</li>
-            </ol>
+      <!--main content start-->
+      <section id="main-content">
+        <section class="wrapper">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="page-header"><i class="icon_piechart"></i> Grafico</h3>
+              <ol class="breadcrumb">
+                <li><i class="fa fa-home"></i><a href="inicio.php">Home</a></li>
+                <li><i class="icon_piechart"></i>Grafico</li>
+
+              </ol>
+            </div>
           </div>
-        </div>
-        <!-- Form validations -->
-        <div class="row">
-          <div class="col-lg-12">
-            <section class="panel">
-              <header class="panel-heading">
-                Dados do Paciente
-              </header>
-              <div class="panel-body">
-                <div class="form">
-                  <form class="form-validate form-horizontal" id="feedback_form" method="post" action="/gravarPaciente.php">
-                    <div class="form-group ">
-                      <label for="cname" class="control-label col-lg-2">Nome <span class="required">*</span></label>
-                      <div class="col-lg-10">
-                        <input class="form-control" id="cname" name="fullname" minlength="5" type="text" required />
+          <div class="row">
+            <!-- chart morris start -->
+            <div class="col-lg-12">
+              <section class="panel">
+                <header class="panel-heading">
+                  <h3>Graficos</Char>
+                      </header>
+                      <div class="panel-body">
+                        <div class="tab-pane" id="chartjs">
+                          <div class="row">
+                              <!-- Line -->
+                              <div class="col-lg-6">
+                                  <section class="panel">
+                                      <header class="panel-heading">
+                                          Line
+                                      </header>
+                                      <div class="panel-body text-center">
+                                          <canvas id="line1" height="300" width="450"></canvas>
+                                      </div>
+                                  </section>
+                              </div>
+
+                               <!-- Line 
+                               <div class="col-lg-6">
+                                  <section class="panel">
+                                      <header class="panel-heading">
+                                          Line
+                                      </header>
+                                      <div class="panel-body text-center">
+                                          <canvas id="line2" height="300" width="450"></canvas>
+                                      </div>
+                                  </section>
+                              </div>
+                              -->
+                          </div>
+                  </div>
                       </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="cemail" class="control-label col-lg-2">E-Mail <span class="required">*</span></label>
-                      <div class="col-lg-10">
-                        <input class="form-control " id="cemail" type="email" name="email" required />
                       </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="planosaude" class="control-label col-lg-2">Plano de Saude</label>
-                      <div class="col-lg-10">
-                        <input class="form-control " id="planosaude" type="text" name="planosaude" />
-                      </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="cname" class="control-label col-lg-2">Telefone: <span class="required">*</span></label>
-                      <div class="col-lg-10">
-                        <input class="form-control" id="subject" name="subject" minlength="5" type="text" required />
-                      </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="ccomment" class="control-label col-lg-2">Anaminese:</label>
-                      <div class="col-lg-10">
-                        <textarea class="form-control " id="ccomment" name="comment" required></textarea>
-                      </div>
-                    </div>                                   
+                    </section>
               </div>
-            </section>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <section class="panel">
-              <header class="panel-heading">
-                Anaminese Completa
-              </header>
-              <div class="panel-body">
-              
-                    <div class="form-group ">
-                      <label for="diagnostico" class="control-label col-lg-2">Diagnostico <span class="required">*</span></label>
-                      <div class="col-lg-10">
-                        <input class=" form-control" id="diagnostico" name="diagnostico" type="text" />
-                      </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="tratamentosugerido" class="control-label col-lg-2">Tratamento Sugerido <span class="required">*</span></label>
-                      <div class="col-lg-10">
-                        <input class=" form-control" id="tratamentosugerido" name="tratamentosugerido" type="text" />
-                      </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="datainicio" class="control-label col-lg-2">Data Inicio <span class="required">*</span></label>
-                      <div class="col-lg-10">
-                        <input class="form-control " id="datainicio" name="datainicio" type="date" />
-                      </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="datafim" class="control-label col-lg-2">Data Fim <span class="required">*</span></label>
-                      <div class="col-lg-10">
-                        <input class="form-control " id="datafim" name="datafim" type="date" />
-                      </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="uploadmv" class="control-label col-lg-2">Upload MV (CSV) <span class="required">*</span></label>
-                      <div class="col-lg-10">
-                        <input class="form-control " id="uploadmv" name="uploadmv" type="file" accept="image/*" />
-                      </div>
-                    </div>
-                    <div class="form-group ">
-                      <label for="uploadcapmv" class="control-label col-lg-2">Upload Captura MV </label>
-                      <div class="col-lg-10">
-                        <input class="form-control " id="uploadcapmv" name="uploadcapmv" type="file" accept="image/*"/>
-                      </div>
-                    </div>                   
-                    <div class="form-group">
-                      <div class="col-lg-offset-2 col-lg-10">
-                        <button class="btn btn-primary" type="submit">Salvar</button>
-                        <button class="btn btn-default" type="button">Cancelar</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-        <!-- page end-->
+              <!-- chart morris start -->
+            </div>
       </section>
-    </section>
-    <!--main content end-->
-    <div class="text-right">
-      <div class="credits">
+      <!--main content end-->
+      <div class="text-right">
+            <div class="credits">
           <!--
             All the links in the footer should remain intact.
             You can delete the links only if you purchased the pro version.
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
           -->
-          Designed by <a href="http://alexjosesilva.github.io/">AlexJoseSilva</a>
+          Designed by <a href="https://bootstrapmade.com/">AlexJose</a>
         </div>
-    </div>
-  </section>
-  <!-- container section end -->
+        </div>
+    </section>
+    <!-- container section end -->
+    <!-- javascripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- nice scroll -->
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
+    <!-- chartjs -->
+    <script src="assets/chart-master/Chart.js"></script>
+    <!-- custom chart script for this page only-->
+    <script src="js/chartjs-custom.js"></script>
+    <!--custome script for all page-->
+    <script src="js/scripts.js"></script>
 
-  <!-- javascripts -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <!-- nice scroll -->
-  <script src="js/jquery.scrollTo.min.js"></script>
-  <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
-  <!-- jquery validate js -->
-  <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-
-  <!-- custom form validation script for this page-->
-  <script src="js/form-validation-script.js"></script>
-  <!--custome script for all page-->
-  <script src="js/scripts.js"></script>
-
-
-</body>
-
+  </body>
 </html>

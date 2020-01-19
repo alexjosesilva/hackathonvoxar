@@ -225,9 +225,9 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
               <ul class="sub">
-                <li><a class="" href="form_component.php">Cadastro de Paciente</a></li>
-                <li><a class="" href="form_validation.php">Anaminese</a></li>
-                <li><a class="" href="chart-chartjs.php">Grafico</a></li>
+                <li><a class="" href="cadastro_paciente.php">Cadastro de Paciente</a></li>
+                <li><a class="" href="buscar_paciente.php">Buscar Paciente</a></li>
+                <li><a class="" href="relatorio_grafico.php">Relatorio Grafico</a></li>
               </ul>
             </li>
 
@@ -255,7 +255,7 @@
             <div class="col-lg-12">
               <section class="panel">
                 <header class="panel-heading">
-                  <h3>Graficos</Char>
+                  <h3>Graficos do Paciente: XXXX</Char>
                       </header>
                       <div class="panel-body">
                         <div class="tab-pane" id="chartjs">
