@@ -329,11 +329,11 @@
       <section class="wrapper">
         <div class="row">
           <div class="col-lg-12">
-            <h3 class="page-header"><i class="fa fa fa-bars"></i> Pages</h3>
+            <h3 class="page-header"><i class="fa fa fa-bars"></i> Mensagem</h3>
             <ol class="breadcrumb">
               <li><i class="fa fa-home"></i><a href="inicio.php">Home</a></li>
-              <li><i class="fa fa-bars"></i>Pages</li>
-              <li><i class="fa fa-square-o"></i>Pages</li>
+              <li><i class="fa fa-bars"></i>Mensagem</li>
+              <li><i class="fa fa-square-o"></i>Mensagem</li>
             </ol>
           </div>
         </div>
@@ -363,7 +363,7 @@
                 <div class="validation"></div>
               </div>
 
-              <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Send Message</button></div>
+              <div class="text-center"><button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button></div>
             </form>
           </div>
 
