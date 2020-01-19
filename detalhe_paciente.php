@@ -9,7 +9,7 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>Grafico | Fisio 2.0</title>
+  <title>Grafico | physio 2.0</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
       </div>
 
       <!--logo start-->
-      <a href="inicio.php" class="logo">Fisio 2.0 <span class="lite">Admin</span></a>
+      <a href="inicio.php" class="logo">physio 2.0 <span class="lite">Admin</span></a>
       <!--logo end-->
 
       <div class="nav search-row" id="top_menu">
@@ -250,7 +250,8 @@
               </ol>
             </div>
           </div>
-          <div class="row">
+      
+        <div class="row">
             <!-- chart morris start -->
             <div class="col-lg-12">
               <section class="panel">
@@ -272,18 +273,24 @@
                                   </section>
                               </div>
 
-                               <!-- Line 
+                               <!-- Dados -->
                                <div class="col-lg-6">
                                   <section class="panel">
                                       <header class="panel-heading">
-                                          Line
+                                          Dados do Paciente
                                       </header>
-                                      <div class="panel-body text-center">
-                                          <canvas id="line2" height="300" width="450"></canvas>
+                                      <div class="panel-body text-left">
+                                          
+                                          <p>Nome: </p>  
+                                          <p>Idade: </p>
+                                          <p>Data-Nascimento: </p>
+
+                                        </div>
+                                          
                                       </div>
                                   </section>
                               </div>
-                              -->
+                            
                           </div>
                   </div>
                       </div>
@@ -292,8 +299,10 @@
               </div>
               <!-- chart morris start -->
             </div>
-      </section>
-      <!--main content end-->
+      
+          </section>
+          
+          <!--main content end-->
       <div class="text-right">
             <div class="credits">
           <!--

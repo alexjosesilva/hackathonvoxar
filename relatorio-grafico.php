@@ -9,7 +9,7 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>Grafico | Fisio 2.0</title>
+  <title>Grafico | physio 2.0</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,10 +46,10 @@
     <header class="header dark-bg">
       <div class="toggle-nav">
         <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
-      </div>
+      </div>physio 2.0
 
       <!--logo start-->
-      <a href="inicio.php" class="logo">Fisio 2.0 <span class="lite">Admin</span></a>
+      <a href="inicio.php" class="logo"> <span class="lite">Admin</span></a>
       <!--logo end-->
 
       <div class="nav search-row" id="top_menu">
@@ -272,11 +272,11 @@
                                   </section>
                               </div>
 
-                               <!-- Line 
+                               <!-- Line  -->
                                <div class="col-lg-6">
                                   <section class="panel">
                                       <header class="panel-heading">
-                                          Line
+                                          Dados do Usuario
                                       </header>
                                       <div class="panel-body text-center">
                                           <canvas id="line2" height="300" width="450"></canvas>

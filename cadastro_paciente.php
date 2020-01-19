@@ -9,7 +9,7 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>Cadastro | Fisio 2.0</title>
+  <title>Cadastro | physio 2.0</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,7 @@
       </div>
 
       <!--logo start-->
-      <a href="inicio.php" class="logo">Fisio 2.0 <span class="lite">Admin</span></a>
+      <a href="inicio.php" class="logo">physio 2.0 <span class="lite">Admin</span></a>
       <!--logo end-->
 
       <div class="nav search-row" id="top_menu">
@@ -226,7 +226,7 @@
             <ul class="sub">
               <li><a class="" href="cadastro_paciente.php">Cadastrar Paciente</a></li>
               <li><a class="" href="buscar_paciente.php">Buscar Paciente</a></li>
-              <li><a class="" href="relatorio-grafico.php">Relatorio Gráfico</a></li>
+              <li><a class="" href="relatorio_grafico.php">Relatorio Gráfico</a></li>
             </ul>
           </li>
 
@@ -274,21 +274,57 @@
                     <div class="form-group ">
                       <label for="planosaude" class="control-label col-lg-2">Plano de Saude</label>
                       <div class="col-lg-10">
-                        <input class="form-control " id="planosaude" type="text" name="planosaude" />
+                        
+                        <select class="form-control " id="planosaude" type="text" name="planosaude">
+                          <option value="0">Escolha</option>
+                          <option value="1">Amil</option>
+                          <option value="2">Bradesco</option>
+                          <option value="3">HapVida</option>
+                          <option value="4">Santa Joana</option>
+                        </select>
                       </div>
                     </div>
+                    
                     <div class="form-group ">
                       <label for="cname" class="control-label col-lg-2">Telefone: <span class="required">*</span></label>
                       <div class="col-lg-10">
-                        <input class="form-control" id="subject" name="subject" minlength="5" type="text" required />
+                        <input class="form-control" id="subject" name="subject" minlength="5" type="text"  required />
                       </div>
                     </div>
+                    
                     <div class="form-group ">
-                      <label for="ccomment" class="control-label col-lg-2">Anaminese:</label>
+                      <label for="ccomment" class="control-label col-lg-2">Sexo:</label>
                       <div class="col-lg-10">
-                        <textarea class="form-control " id="ccomment" name="comment" required></textarea>
+                        <label><input type="radio" name="sexo" value=1>Homem </label>
+                        <label><input type="radio" name="sexo" value=2>Mulher </label>
                       </div>
-                    </div>                                   
+                    </div>       
+
+                    <div class="form-group ">
+                      <label for="filiacao" class="control-label col-lg-2">Filiacao:</label>
+                      <div class="col-lg-10">
+                      <input class="form-control" id="filiacao" name="filiacao" minlength="5" type="text"  required />
+                      </div>
+                    </div>   
+
+                    <div class="form-group ">
+                      <label for="estadoCivil" class="control-label col-lg-2">Estado Civil:</label>
+                      <div class="col-lg-10">
+                      <select class="form-control " id="estadoCivil" type="text" name="estadoCivil">
+                          <option value="0">Escolha</option>
+                          <option value="1">Solteiro</option>
+                          <option value="2">Casado</option>
+                          <option value="3">Outros</option>
+                        </select>
+                      </div>
+                    </div> 
+
+                    <div class="form-group ">
+                      <label for="datanascimento" class="control-label col-lg-2">Data Nascimento <span class="required">*</span></label>
+                      <div class="col-lg-10">
+                        <input class="form-control " id="datanascimento" name="datanascimento" type="date" />
+                      </div>
+                    </div>
               </div>
             </section>
           </div>
@@ -302,48 +338,95 @@
               <div class="panel-body">
               
                     <div class="form-group ">
-                      <label for="diagnostico" class="control-label col-lg-2">Diagnostico <span class="required">*</span></label>
+                      <label for="hda" class="control-label col-lg-2">H.D.A <span class="required">*</span></label>
                       <div class="col-lg-10">
-                        <input class=" form-control" id="diagnostico" name="diagnostico" type="text" />
+                        <input class=" form-control" id="hda" name="hda" type="text" />
                       </div>
                     </div>
+
                     <div class="form-group ">
-                      <label for="tratamentosugerido" class="control-label col-lg-2">Tratamento Sugerido <span class="required">*</span></label>
+                      <label for="cirurgia" class="control-label col-lg-2">Cirurgia <span class="required">*</span></label>
                       <div class="col-lg-10">
-                        <input class=" form-control" id="tratamentosugerido" name="tratamentosugerido" type="text" />
+                        <input class=" form-control" id="cirurgia" name="cirurgia" type="text" />
                       </div>
                     </div>
+
                     <div class="form-group ">
-                      <label for="datainicio" class="control-label col-lg-2">Data Inicio <span class="required">*</span></label>
+                      <label for="antecedentes" class="control-label col-lg-2">Atecendentes <span class="required">*</span></label>
                       <div class="col-lg-10">
-                        <input class="form-control " id="datainicio" name="datainicio" type="date" />
+                        <input type="checkbox" name="antecedentes1" value="1">Alcoolismo<br>
+                        <input type="checkbox" name="antecedentes2" value="2">Tabagismo<br>
+                        <input type="checkbox" name="antecedentes3" value="3">Diabete<br>
+                        <input type="checkbox" name="antecedentes2" value="4">Alergia<br>
+                        <input type="checkbox" name="antecedentes3" value="5">Cardiopatia<br>
                       </div>
                     </div>
+
                     <div class="form-group ">
-                      <label for="datafim" class="control-label col-lg-2">Data Fim <span class="required">*</span></label>
+                      <label for="cirurgia" class="control-label col-lg-2">Cirurgia <span class="required">*</span></label>
                       <div class="col-lg-10">
-                        <input class="form-control " id="datafim" name="datafim" type="date" />
+                        <input class=" form-control" id="cirurgia" name="cirurgia" type="text" />
                       </div>
                     </div>
+
+                    <div class="form-group ">
+                      <label for="antfamiliar" class="control-label col-lg-2">Antecendente Familiares<span class="required">*</span></label>
+                      <div class="col-lg-10">
+                        <input class=" form-control" id="antfamiliar" name="antfamiliar" type="text" />
+                      </div>
+                    </div>
+                    
+                    <div class="form-group ">
+                      <label for="digclinico" class="control-label col-lg-2">Diagnostico Clinico<span class="required">*</span></label>
+                      <div class="col-lg-10">
+                        <input class=" form-control" id="digclinico" name="digclinico" type="text" />
+                      </div>
+                    </div>
+
+                    <div class="form-group ">
+                      <label for="digfisicofuncional" class="control-label col-lg-2">Diag Fisico-Funcional<span class="required">*</span></label>
+                      <div class="col-lg-10">
+                        <input class=" form-control" id="digfisicofuncional" name="digfisicofuncional" type="text" />
+                      </div>
+                    </div>
+
+                    <div class="form-group ">
+                      <label for="digfisicofuncional" class="control-label col-lg-2">Postura Adotada<span class="required">*</span></label>
+                      <div class="col-lg-10">
+                        <select class="form-control " id="postura" type="text" name="postura">
+                          <option value="0">Escolha</option>
+                          <option value="1">Leito</option>
+                          <option value="2">Cadeira</option>
+                        </select>
+                      </div>
+                    </div>
+
                     <div class="form-group ">
                       <label for="uploadmv" class="control-label col-lg-2">Upload MV (CSV) <span class="required">*</span></label>
                       <div class="col-lg-10">
                         <input class="form-control " id="uploadmv" name="uploadmv" type="file" accept="image/*" />
                       </div>
                     </div>
+                    
                     <div class="form-group ">
                       <label for="uploadcapmv" class="control-label col-lg-2">Upload Captura MV </label>
                       <div class="col-lg-10">
                         <input class="form-control " id="uploadcapmv" name="uploadcapmv" type="file" accept="image/*"/>
                       </div>
-                    </div>                   
+                    </div> 
+
+
+
+
                     <div class="form-group">
                       <div class="col-lg-offset-2 col-lg-10">
                         <button class="btn btn-primary" type="submit">Salvar</button>
                         <button class="btn btn-default" type="button">Cancelar</button>
                       </div>
                     </div>
+
                   </form>
+                  
                 </div>
               </div>
             </section>

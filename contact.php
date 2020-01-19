@@ -9,7 +9,7 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>Mensagens | Fisio 2.0 </title>
+  <title>Mensagens | physio 2.0 </title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
       </div>
 
       <!--logo start-->
-      <a href="inicio.php" class="logo">Mensagens <span class="lite">Admin</span></a>
+      <a href="inicio.php" class="logo">physio 2.0 <span class="lite">Admin</span></a>
       <!--logo end-->
 
       <div class="nav search-row" id="top_menu">
@@ -311,9 +311,9 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-            <li><a class="" href="form_component.php">Cadastro de Pacientes</a></li>
-              <li><a class="" href="form_validation.php">Anaminese</a></li>
-              <li><a class="" href="chart-chartjs.php">Graficos</a></li>
+            <li><a class="" href="cadastro_paciente.php">Cadastro de Paciente</a></li>
+              <li><a class="" href="buscar_paciente.php">Buscar Paciente</a></li>
+              <li><a class="" href="relatorio_grafico.php">Relatorio Grafico</a></li>
           </li>
             </ul>
           </li>

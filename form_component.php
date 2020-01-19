@@ -9,7 +9,7 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>Cadastrar Paciente | Fisio 2.0</title>
+  <title>Cadastrar Paciente | physio 2.0</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
       </div>
 
       <!--logo start-->
-      <a href="inicio.php" class="logo">Fisio 2.0 <span class="lite">Admin</span></a>
+      <a href="inicio.php" class="logo">physio 2.0 <span class="lite">Admin</span></a>
       <!--logo end-->
 
       <div class="nav search-row" id="top_menu">
