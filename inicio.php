@@ -232,9 +232,9 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-              <li><a class="" href="form_component.php">Cadastro de Pacientes</a></li>
-              <li><a class="" href="form_validation.php">Anaminese</a></li>
-              <li><a class="" href="chart-chartjs.php">Graficos</a></li>
+              <li><a class="" href="cadastro_paciente.php">Cadastro de Pacientes</a></li>
+              <li><a class="" href="buscar_paciente.php">Buscar Paciente</a></li>
+              <li><a class="" href="relatorio-grafico.php">Relatorio Graficos</a></li>
             </ul>
           </li>
          
