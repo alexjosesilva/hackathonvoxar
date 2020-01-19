@@ -195,14 +195,9 @@
               </li>
              
               <li>
-                <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                <a href="login.php"><i class="icon_key_alt"></i> Log Out</a>
               </li>
-              <li>
-                <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
-              </li>
-              <li>
-                <a href="documentation.html"><i class="icon_key_alt"></i> Documentation</a>
-              </li>
+           
             </ul>
           </li>
           <!-- user login dropdown end -->
