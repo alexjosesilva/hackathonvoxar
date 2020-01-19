@@ -271,17 +271,7 @@
                                   </div>
                               </section>
                           </div>
-                          <!-- Bar -->
-                          <div class="col-lg-6">
-                              <section class="panel">
-                                  <header class="panel-heading">
-                                      Bar
-                                  </header>
-                                  <div class="panel-body text-center">
-                                      <canvas id="bar" height="300" width="500"></canvas>
-                                  </div>
-                              </section>
-                          </div>
+                          
                       </div>
                       <div class="row">
                           <!-- Radar -->
