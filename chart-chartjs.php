@@ -267,7 +267,7 @@
                                           Line
                                       </header>
                                       <div class="panel-body text-center">
-                                          <canvas id="line" height="300" width="450"></canvas>
+                                          <canvas id="line1" height="300" width="450"></canvas>
                                       </div>
                                   </section>
                               </div>
