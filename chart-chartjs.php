@@ -233,7 +233,7 @@
             <li class="sub-menu">
               <a href="javascript:;" class="">
                           <i class="icon_document_alt"></i>
-                          <span>Cadastro</span>
+                          <span>Paciente</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
               <ul class="sub">
