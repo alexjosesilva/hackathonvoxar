@@ -49,7 +49,7 @@
       </div>
 
       <!--logo start-->
-      <a href="index.html" class="logo">Fisio 2.0 <span class="lite">Admin</span></a>
+      <a href="inicio.php" class="logo">Fisio 2.0 <span class="lite">Admin</span></a>
       <!--logo end-->
 
       <div class="nav search-row" id="top_menu">
@@ -225,7 +225,7 @@
           <!-- sidebar menu start-->
           <ul class="sidebar-menu">
             <li class="active">
-              <a class="" href="index.html">
+              <a class="" href="inicio.php">
                           <i class="icon_house_alt"></i>
                           <span>Dashboard</span>
                       </a>
@@ -237,9 +237,9 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
               <ul class="sub">
-                <li><a class="" href="form_component.html">Cadastro de Paciente</a></li>
-                <li><a class="" href="form_validation.html">Anaminese</a></li>
-                <li><a class="" href="chart-chartjs.html">Grafico</a></li>
+                <li><a class="" href="form_component.php">Cadastro de Paciente</a></li>
+                <li><a class="" href="form_validation.php">Anaminese</a></li>
+                <li><a class="" href="chart-chartjs.php">Grafico</a></li>
               </ul>
             </li>
 
@@ -256,7 +256,7 @@
             <div class="col-lg-12">
               <h3 class="page-header"><i class="icon_piechart"></i> Chart</h3>
               <ol class="breadcrumb">
-                <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                <li><i class="fa fa-home"></i><a href="inicio.php">Home</a></li>
                 <li><i class="icon_piechart"></i>Chart</li>
 
               </ol>
