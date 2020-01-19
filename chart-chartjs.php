@@ -9,7 +9,7 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>Charts | Creative - Bootstrap 3 Responsive Admin Template</title>
+  <title>Grafico | Fisio 2.0</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -267,7 +267,7 @@
             <div class="col-lg-12">
               <section class="panel">
                 <header class="panel-heading">
-                  <h3>General Chart</Char>
+                  <h3>Graficos</Char>
                       </header>
                       <div class="panel-body">
                         <div class="tab-pane" id="chartjs">
