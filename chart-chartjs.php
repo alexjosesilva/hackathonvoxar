@@ -273,13 +273,10 @@
                               </div>
                           </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+                  </section>
+              </div>
+              <!-- chart morris start -->
             </div>
-            <!-- chart morris start -->
-          </div>
       </section>
       <!--main content end-->
       <div class="text-right">
@@ -290,7 +287,7 @@
             Licensing information: https://bootstrapmade.com/license/
             Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
           -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href="http://alexjosesilva.github.io/">AlexJoseSilva</a>
         </div>
         </div>
     </section>
