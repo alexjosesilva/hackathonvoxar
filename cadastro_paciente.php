@@ -9,7 +9,7 @@
   <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
   <link rel="shortcut icon" href="img/favicon.png">
 
-  <title>Anaminese | Fisio 2.0</title>
+  <title>Cadastro | Fisio 2.0</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -241,11 +241,11 @@
       <section class="wrapper">
         <div class="row">
           <div class="col-lg-12">
-            <h3 class="page-header"><i class="fa fa-files-o"></i> Anaminese</h3>
+            <h3 class="page-header"><i class="fa fa-files-o"></i> Paciente</h3>
             <ol class="breadcrumb">
               <li><i class="fa fa-home"></i><a href="index.php">Home</a></li>
               <li><i class="icon_document_alt"></i>Cadastro</li>
-              <li><i class="fa fa-files-o"></i>Cadastro Anaminese</li>
+              <li><i class="fa fa-files-o"></i>Cadastro Paciente</li>
             </ol>
           </div>
         </div>
@@ -254,13 +254,13 @@
           <div class="col-lg-12">
             <section class="panel">
               <header class="panel-heading">
-                Form validations
+                Dados do Paciente
               </header>
               <div class="panel-body">
                 <div class="form">
                   <form class="form-validate form-horizontal" id="feedback_form" method="get" action="">
                     <div class="form-group ">
-                      <label for="cname" class="control-label col-lg-2">Full Name <span class="required">*</span></label>
+                      <label for="cname" class="control-label col-lg-2">Nome <span class="required">*</span></label>
                       <div class="col-lg-10">
                         <input class="form-control" id="cname" name="fullname" minlength="5" type="text" required />
                       </div>
@@ -272,19 +272,19 @@
                       </div>
                     </div>
                     <div class="form-group ">
-                      <label for="curl" class="control-label col-lg-2">Website</label>
+                      <label for="curl" class="control-label col-lg-2">Plano de Saude</label>
                       <div class="col-lg-10">
                         <input class="form-control " id="curl" type="url" name="url" />
                       </div>
                     </div>
                     <div class="form-group ">
-                      <label for="cname" class="control-label col-lg-2">Subject <span class="required">*</span></label>
+                      <label for="cname" class="control-label col-lg-2">Telefone: <span class="required">*</span></label>
                       <div class="col-lg-10">
                         <input class="form-control" id="subject" name="subject" minlength="5" type="text" required />
                       </div>
                     </div>
                     <div class="form-group ">
-                      <label for="ccomment" class="control-label col-lg-2">Feedback</label>
+                      <label for="ccomment" class="control-label col-lg-2">Anaminese:</label>
                       <div class="col-lg-10">
                         <textarea class="form-control " id="ccomment" name="comment" required></textarea>
                       </div>
@@ -306,21 +306,21 @@
           <div class="col-lg-12">
             <section class="panel">
               <header class="panel-heading">
-                Advanced Form validations
+                Anaminese Completa
               </header>
               <div class="panel-body">
                 <div class="form">
                   <form class="form-validate form-horizontal " id="register_form" method="get" action="">
                     <div class="form-group ">
-                      <label for="fullname" class="control-label col-lg-2">Full name <span class="required">*</span></label>
+                      <label for="diagnostico" class="control-label col-lg-2">Diagnostico <span class="required">*</span></label>
                       <div class="col-lg-10">
-                        <input class=" form-control" id="fullname" name="fullname" type="text" />
+                        <input class=" form-control" id="diagnostico" name="diagnostico" type="text" />
                       </div>
                     </div>
                     <div class="form-group ">
-                      <label for="address" class="control-label col-lg-2">Address <span class="required">*</span></label>
+                      <label for="tratamentosugerido" class="control-label col-lg-2">Tratamento Sugerido <span class="required">*</span></label>
                       <div class="col-lg-10">
-                        <input class=" form-control" id="address" name="address" type="text" />
+                        <input class=" form-control" id="tratamentosugerido" name="tratamentosugerido" type="text" />
                       </div>
                     </div>
                     <div class="form-group ">
