@@ -287,17 +287,7 @@
                           </div>
                      
                       <div class="row">
-                          <!-- Doughnut -->
-                          <div class="col-lg-6">
-                              <section class="panel">
-                                  <header class="panel-heading">
-                                      Doughnut
-                                  </header>
-                                  <div class="panel-body text-center">
-                                      <canvas id="doughnut" height="300" width="400"></canvas>
-                                  </div>
-                              </section>
-                          </div>
+                         
                       </div>
                   </div>
                       </div>
