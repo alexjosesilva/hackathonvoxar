@@ -128,7 +128,7 @@ $(document).ready(function() {
     };
 
     new Chart(document.getElementById("line1").getContext("2d")).Line(lineChartData);
-    new Chart(document.getElementById("line2").getContext("2d")).Line(lineChartData);
+    //new Chart(document.getElementById("line2").getContext("2d")).Line(lineChartData);
 
     /*new Chart(document.getElementById("doughnut").getContext("2d")).Doughnut(doughnutData);
     new Chart(document.getElementById("line").getContext("2d")).Line(lineChartData);

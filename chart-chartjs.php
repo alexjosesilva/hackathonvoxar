@@ -272,7 +272,7 @@
                                   </section>
                               </div>
 
-                               <!-- Line -->
+                               <!-- Line 
                                <div class="col-lg-6">
                                   <section class="panel">
                                       <header class="panel-heading">
@@ -283,6 +283,7 @@
                                       </div>
                                   </section>
                               </div>
+                              -->
                           </div>
                   </div>
                       </div>
